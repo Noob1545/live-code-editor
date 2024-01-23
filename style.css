@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    overflow: hidden;
+    background-color: teal;
+    user-select: none;
+}
+
+#anadiv {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#htmldiv, 
+#cssdiv {
+    width: 33%;
+    flex-direction: row;
+    top:-90px
+}
+
+#JSdiv {
+    width: 35%;
+}
+
+textarea {
+    width: 470px;
+    height: 320px;
+    resize: none;
+    padding: 5px;
+}
+
+#outputdiv {
+    background-color: white;
+    border: solid 2px rgb(85, 84, 84);
+    width: 100%;
+    height: 270px;
+    margin-left: 45px;
+}
+
+button{
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+
+#iframeContainer{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+
+
+#iframeOutput {
+    width: 100%;
+    height: 100%;
+    border: solid 2px black
+}
+
+
+#button1{
+    margin-left: 40px;
+}
